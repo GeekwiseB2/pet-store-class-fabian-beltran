@@ -5,10 +5,136 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+	<header class="container">
+	<!-- FLEX WRAPPER -->
+		<!-- HEADER -->
+		<div class="row">
+			<div class="flex-wrapper"> 
+				<div class="col-xs-8 col-sm-4 col-md-6">
+					<a href="index.html">
+						<img src="img/petstore_logo.png" alt="Pet Store" id="header-logo" class="img-responsive pull-left">
+						<h1 id="logo-style" class="pull-left">Pet Store</h1>
+					</a>
+				</div>
+			<!-- NAV -->
+				<nav class="col-xs-12 col-sm-8 col-md-6">
+					<ul class="nav nav-pills pull-right">
+					  <li role="presentation"><a href="index.html">Home</a></li>
+					  <li role="presentation"><a href="#">Products</a></li>
+					  <li role="presentation"><a href="#">Contact Us</a></li>
+					</ul>
+				</nav>
+				</div>
+			</div>
+		
+	</header>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="text-center text-uppercase">
+				<h2>The products they love. The prices you like.</h2>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7"> <!-- FEATURED SECTION -->
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="featured-title" class="text-uppercase">FEATURED:</h1>
+						<p id="featured-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi totam tenetur suscipit, modi earum ratione recusandae, repellendus consequuntur exercitationem ex, at magnam. Officiis itaque amet modi, harum reiciendis. Culpa, temporibus.</p>
+					</div>
+				</div>
+				<div class="row">
+						<div class="col-md-4"> <!-- DOG BOWl THUMBNAIL -->
+							<div class="row thumb-background">
+							  <div class="col-xs-6 col-sm-12">
+							      <img src="img/product1.jpg" alt="Dog Bowl" class="img-responsive">
+							      <div class="caption col-xs-6 col-sm-12">
+							        <h3>DOG BOWL</h3>
+							        <p class="text-justify">Best bowl for your dog!</p>
+							      <button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+							      </div>
+							    </div>
+							</div>
+						</div>
+					<div class="col-md-4"> <!-- CAT TOYS THUMBNAIL -->
+						<div class="row thumb-background">
+						  <div class="col-xs-6 col-sm-12">
+						      <img src="img/product2.jpg" alt="Cat Toys" class="img-responsive">
+						      <div class="caption col-xs-6 col-sm-12">
+						        <h3>CAT TOYS</h3>
+						        <p class="text-justify">Best toys for your cat!</p>
+						      <button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+						      </div>
+						    </div>
+						</div>
+					</div>
+					
+					<div class="col-md-4"> <!-- CAT TOYS THUMBNAIL -->
+						<div class="row thumb-background">
+						  <div class="col-xs-6 col-sm-12">
+						      <img src="img/product3.jpg" alt="Bird Stuff" class="img-responsive">
+						      <div class="caption col-xs-6 col-sm-12">
+						        <h3>Bird Stuff</h3>
+						        <p class="text-justify">Best stuff for your birds!</p>
+						      <button class="btn btn-info btn-xs" role="button">Purchase Now</button>
+						      </div>
+						    </div>
+						</div>
+					</div>
+					</div>
+				</div>
+		
+			<div class="col-md-3 col-md-offset-2 text-center"> <!-- SERVICES SCTION-->
+			<h1 class="text-uppercase">SERVICES</h1>
+				<ul class="nav nav-pills nav-stacked">
+				  <li role="presentation">
+				  	<a href="#">Adopt a Dog</a>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				  </li>
+				  <li role="presentation">
+				  	<a href="#">Adopt a Cat</a>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				  </li>
+				  <li role="presentation">
+				  	<a href="#">Adopt a Bird</a>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				  </li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+	</div>
+	<footer class="container-fluid">
+	<div class="container center-block">
+			<div class="row"> <!-- FOOTER -->
+				<div class="col-sm-3 right-border"> <!-- LOGO -->
+					<img src="img/petstore_logo.png" alt="Pet Store" class="img-responsive" id="footer-logo">
+				</div>
+				<div class="col-sm-3 right-border"> <!-- ADDRESS -->
+					<address>
+						<a href="#">
+							Pet Store<br />
+							Madera, CA<br />
+						</a>
+						<a href="mailto:fabianbrine@gmail.com">fabianbrine@gmail.com</a>
+					</address>
+				</div>
+				<div class="col-sm-3"> <!-- SOCIAL MEDIA -->
+					<p><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</p>
+					<p><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</p>
+					<p><i class="fa fa-linkedin" aria-hidden="true"></i> Linked In</p>
+				</div>
+			</div>
+			<div class="row col-xs-12 text-center"> <!-- COPYRIGHT -->
+				<p>&copy; Pet Store Inc, ALL RIGHTS RESERVED</p>
+			</div>
+		</div>
+	</footer>
 	<!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
